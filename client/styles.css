@@ -1,5 +1,15 @@
-/* your beautiful css styling goes here! */
+svg {
+  -webkit-mask-image: url(space.jpg);
+  mask-image: url('space.jpg');
+  margin: 5px;
+}
 
-/* Note: an asteroid image is included in this repo.
-Feel free to use it if you like. */
+.board {
+  width: 750px;
+  height: 600px;
+  z-index: -1;
+}
 
+#asteroid {
+  background-image: 'asteroid.png';
+}
